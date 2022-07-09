@@ -1,13 +1,9 @@
 cd ~/Coding/  #Open Coding Folder by default
-nightlight on #Turning on NightLight - https://github.com/smudge/nightlight?ref=producthunt : Download CLI before using
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-alias sim="open -a Simulator"
 alias mongod-run='brew services run mongodb-community'
 alias mongod-start='brew services start mongodb-community'
 alias mongod-status='brew services list'
 alias mongod-stop='brew services stop mongodb-community'
-alias gtkwave= "open -a gtkwave"
-
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/SaiAnkit/.oh-my-zsh"
       ZSH_THEME="agnoster"
@@ -17,8 +13,6 @@ export ZSH="/Users/SaiAnkit/.oh-my-zsh"
 export DEFAULT_USER="$(whoami)"
 
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
-eval "$(rbenv init -)"
-
 #Context: user@hostname (who am I and where am I)
 prompt_context() {
  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
@@ -36,13 +30,14 @@ COMPLETION_WAITING_DOTS="true"
 
 plugins=(
   git
+  zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
 
 export PATH="/usr/local/mysql/bin:$PATH"
-export PATH="/Users/SaiAnkit/Library/Python/3.8/bin:$PATH"
-export PATH="/Users/SaiAnkit/My_Dev/flutter/bin:$PATH"
+export PATH="/Users/saiankit/Library/Python/3.8/bin:$PATH"
+export PATH="/Users/saiankit/Dev/flutter/bin:$PATH"
 export PATH="/Applications/Postgres.app/Contents/Versions/13/bin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="$PATH":"$HOME/My_Dev/flutter/.pub-cache/bin"
@@ -71,5 +66,7 @@ unset __conda_setup
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable changeexport PATH="/usr/local/opt/ghdl-release/bin:$PATH"if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
 
+alias ls='exa --icons'
+alias la='exa --icons --no-permissions --no-user --no-filesize --no-time -la'
 export PATH="$PATH:/Users/saiankit/.local/bin"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
