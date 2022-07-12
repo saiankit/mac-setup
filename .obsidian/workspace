@@ -1,0 +1,106 @@
+{
+  "main": {
+    "id": "237a21ae6fe01785",
+    "type": "split",
+    "children": [
+      {
+        "id": "65c309b3b7983cad",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "0.Mac Setup.md",
+            "mode": "source"
+          }
+        },
+        "group": "11032bce7ebd5d01"
+      },
+      {
+        "id": "0a0dbe2445bcff19",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "0.Mac Setup.md",
+            "mode": "preview"
+          }
+        },
+        "group": "11032bce7ebd5d01"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a01d0f59b198f57f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0a836be04a23b4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09057c44de58d080",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "eb7dba86c6d227c0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "83bf6865258ba1fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f29c4ebb60fe8b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a376b5a474edf21",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0.Mac Setup.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "65c309b3b7983cad",
+  "lastOpenFiles": [
+    "0.Mac Setup.md"
+  ]
+}
