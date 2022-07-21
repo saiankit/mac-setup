@@ -1,0 +1,1 @@
+This revolves around setting sublime for competitive coding in general

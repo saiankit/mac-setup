@@ -1,0 +1,3 @@
+```zsh
+xcode-select --install
+```

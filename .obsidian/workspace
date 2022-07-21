@@ -1,45 +1,33 @@
 {
   "main": {
-    "id": "237a21ae6fe01785",
+    "id": "e4a73a77989d4481",
     "type": "split",
     "children": [
       {
-        "id": "65c309b3b7983cad",
+        "id": "a20b961f92d36c6a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0.Mac Setup.md",
-            "mode": "source"
+            "file": "Sublime Text.md",
+            "mode": "source",
+            "source": false
           }
-        },
-        "group": "11032bce7ebd5d01"
-      },
-      {
-        "id": "0a0dbe2445bcff19",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "0.Mac Setup.md",
-            "mode": "preview"
-          }
-        },
-        "group": "11032bce7ebd5d01"
+        }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a01d0f59b198f57f",
+    "id": "e74e275ef92aa544",
     "type": "split",
     "children": [
       {
-        "id": "b0a836be04a23b4f",
+        "id": "e1aa368211d8b16b",
         "type": "tabs",
         "children": [
           {
-            "id": "09057c44de58d080",
+            "id": "021e077c40e46b1d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,7 +35,7 @@
             }
           },
           {
-            "id": "eb7dba86c6d227c0",
+            "id": "1755d0d045f920c0",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -60,28 +48,36 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "2fa1e72efa43169d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 259
   },
   "right": {
-    "id": "83bf6865258ba1fb",
+    "id": "bbc4f614a0a943cb",
     "type": "split",
     "children": [
       {
-        "id": "8f29c4ebb60fe8b1",
+        "id": "44b72d2a08b6c5d4",
         "type": "tabs",
         "children": [
           {
-            "id": "6a376b5a474edf21",
+            "id": "32d3481dc761d806",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0.Mac Setup.md",
+                "file": "Sublime Text.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,16 +87,34 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "3cecfb5fbb6dce43",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "65c309b3b7983cad",
+  "active": "a20b961f92d36c6a",
   "lastOpenFiles": [
-    "0.Mac Setup.md"
+    "0.Mac Setup.md",
+    "iTerm2.md",
+    "XCode.md",
+    "Dev Stuff.md",
+    "Brave.md",
+    "Android Studio.md",
+    "Docker.md",
+    "VS Code.md",
+    "the mighty zshrc.md",
+    "vault.bitwarden.com.md"
   ]
 }

@@ -1,1 +1,9 @@
-{}
+{
+  "defaultViewMode": "preview",
+  "showLineNumber": false,
+  "legacyEditor": false,
+  "showIndentGuide": false,
+  "vimMode": false,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
+}

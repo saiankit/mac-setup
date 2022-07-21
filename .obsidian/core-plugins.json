@@ -5,11 +5,15 @@
   "graph",
   "backlink",
   "page-preview",
+  "templates",
   "note-composer",
   "command-palette",
+  "slash-command",
   "editor-status",
+  "starred",
   "markdown-importer",
   "word-count",
-  "open-with-default-app",
+  "audio-recorder",
+  "workspaces",
   "file-recovery"
 ]

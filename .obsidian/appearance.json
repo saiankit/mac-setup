@@ -1,3 +1,6 @@
 {
-  "cssTheme": "Cybertron"
+  "cssTheme": "Minimal",
+  "translucency": false,
+  "baseFontSize": 20,
+  "theme": "obsidian"
 }
